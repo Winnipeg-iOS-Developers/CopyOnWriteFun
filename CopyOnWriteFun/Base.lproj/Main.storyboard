@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -22,12 +21,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current State Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lEF-2s-jXM">
-                                <rect key="frame" x="16" y="40" width="343" height="21"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bbi-4Y-Ske">
                                 <rect key="frame" x="164" y="318" width="46" height="30"/>
                                 <state key="normal" title="Assign"/>
@@ -45,12 +38,9 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="lEF-2s-jXM" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="1jp-J5-qxx"/>
                             <constraint firstItem="ORJ-KZ-OvK" firstAttribute="top" secondItem="bbi-4Y-Ske" secondAttribute="bottom" constant="20" id="624-xz-7hq"/>
-                            <constraint firstItem="lEF-2s-jXM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="7Og-0j-SBs"/>
                             <constraint firstItem="bbi-4Y-Ske" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ORO-af-UTV"/>
                             <constraint firstItem="ORJ-KZ-OvK" firstAttribute="centerX" secondItem="bbi-4Y-Ske" secondAttribute="centerX" id="Uz6-jC-qbt"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="lEF-2s-jXM" secondAttribute="trailing" id="fMb-Kg-40a"/>
                             <constraint firstItem="bbi-4Y-Ske" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wV3-Ze-21a"/>
                         </constraints>
                     </view>
