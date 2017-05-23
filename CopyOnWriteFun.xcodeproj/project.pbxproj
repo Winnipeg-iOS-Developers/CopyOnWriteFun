@@ -96,6 +96,7 @@
 				TargetAttributes = {
 					0086D7661ECF984B00138D5D = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4DN5KQR8W8;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -262,6 +263,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4DN5KQR8W8;
 				INFOPLIST_FILE = CopyOnWriteFun/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ca.jeffreyfulton.CopyOnWriteFun;
@@ -274,6 +276,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4DN5KQR8W8;
 				INFOPLIST_FILE = CopyOnWriteFun/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ca.jeffreyfulton.CopyOnWriteFun;
